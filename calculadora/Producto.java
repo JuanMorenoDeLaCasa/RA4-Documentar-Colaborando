@@ -11,6 +11,13 @@ package calculadora;
 
 
 public class Producto {
+	/**
+	 * Este método toma dos números uno en  coma flotante y el otro devuelve el producto.
+	 * @param a Primer número en coma flotante.
+	 * @param b Segundo número en coma flotante.
+	 * @return Producto de a y b.
+	 * @since 1.0
+	 */
 
 	
 	public float dosReales(float a, float b) {
