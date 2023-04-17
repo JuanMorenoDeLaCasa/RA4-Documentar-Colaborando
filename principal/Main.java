@@ -1,9 +1,14 @@
+/**
+ * La clase principal del programa que realiza pruebas de la biblioteca es la "calculadora".
+ * @author Eduardo
+ * @version 0.1
+ * @since 1.0
+ */
 package principal;
 
 import calculadora.*;
 
 public class Main {
-
 	public static void main(String[] args) {
 		//Prueba Suma
 		Suma suma = new Suma();
@@ -19,7 +24,7 @@ public class Main {
 		System.out.println("==============================================================");
 		//Prueba Resta
 		Resta resta = new Resta();
-		
+
 		System.out.println("Vamos a restar dos reales, el 5.5 y el 3.2");
 		System.out.println("El resultado es: " + resta.dosReales(5.5f, 3.2f));
 		System.out.println("Ahora restaremos dos enteros: el 50 y el 20");
@@ -30,27 +35,3 @@ public class Main {
 		System.out.println("Por Último probaremos a acumular números : " + resta.restaAcumulado(22));
 		System.out.println("Por Último probaremos a acumular números : " + resta.restaAcumulado(5));
 		System.out.println("==============================================================");
-		//Prueba Producto
-		Producto productos = new Producto();
-		System.out.println("Vamos a multiplicar dos reales, el 23.65 entre el 8.36");
-		System.out.println("El resultado es: " + productos.dosReales(23.65f, 8.36f));
-		System.out.println("Ahora multiplicaremos dos enteros: el 20 por el 9");
-		System.out.println("El resultado es: " + productos.dosEnteros(20, 9));
-		System.out.println("También hay que multiplicar tres reales: 23.21, 89.74 y 61.285");
-		System.out.println("El resultado es: " + productos.tresReales(23.21f, 89.74f, 61.285f));
-		System.out.println("Por Último probaremos a hacer la potencia al cubo de 36 : " + productos.potencia(36, 3));
-		System.out.println("==============================================================");
-		//Prueba del Cociente
-		Cociente divisiones = new Cociente();
-		System.out.println("Vamos a dividir dos reales, el 53.9832 entre el 4.3232");
-		System.out.println("El resultado es: " + divisiones.dosReales(53.9832f, 4.3232f));
-		System.out.println("Ahora dividiremos dos enteros: el 86 entre el 24");
-		System.out.println("El resultado es: " + divisiones.dosEnteros(86, 24));
-		System.out.println("Ahora obtendremos el número inverso de 395.57: " + divisiones.inversoReal(395.57f));
-		System.out.println("Por Último vamos a obtener la raíz cuadrada de 85.2");
-		System.out.println("El resultado es: " + divisiones.raiz(85.2));
-		System.out.println("==============================================================");
-
-	}
-
-}
