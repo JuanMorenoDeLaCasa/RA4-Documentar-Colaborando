@@ -1,11 +1,12 @@
 package calculadora;
 /**
  * Clase Resta - Clase para realizar operaciones de resta.¡
+ * Clase Resta - Clase para realizar operaciones de resta.¡
  * @version 0.0.1
- * @author Pedro
+ * @author Pedros
  */
-public class Resta {
 
+public class Resta {
 	/**
 	 * Variable para almacenar el valor acumulado
 	 */

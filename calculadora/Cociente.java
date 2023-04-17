@@ -1,7 +1,7 @@
 /**
  * Clase Cociente - Clase para realizar operaciones de cociente
  * @version 1.0.0
- * @since 17 de abril de 2023
+ * @since 17 de abril de 2023s
  */
 package calculadora;
 
@@ -13,12 +13,14 @@ public class Cociente {
 	 * @param b El segundo número real
 	 * @return El cociente de los dos números reales
 	 */
+
 	public float dosReales(float a, float b) throws ArithmeticException {
 		if (b == 0) {
 			throw new ArithmeticException("No se puede dividir entre cero");
 		}
 		return a / b;
 	}
+
 
 	/**
 	 * Calcula el cociente de dos números enteros
