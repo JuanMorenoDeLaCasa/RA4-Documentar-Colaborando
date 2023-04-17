@@ -1,3 +1,12 @@
+/**
+ * Esta clase  representa una calculadora para realizar operaciones de producto o potencia.
+ * @since 1.0
+ * @deprecated Esta clase reemplazada la clase Calculadora.
+ * @see Calculadora
+ * @serial 0.0.1
+ * @version 1.0
+ * @author Eduardo
+ */
 package calculadora;
 
 
